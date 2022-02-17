@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <h1 class="text-center text-primary">Check Your Expenses</h1>
+        <div class="col-md-6">
+            <img src="https://previews.123rf.com/images/showpx/showpx1902/showpx190200154/116344157-financial-calculation-of-money.jpg" alt="" class="image">
+        </div>
+        <div class="col-md-6 text-center pt-5 bg">
+            <div>
+                <h4>Income</h4>
+                <label for="">Income:</label>
+                <input type="number" id="Income" class="bg-2">
+            </div>
+            <div>
+                <h2 class="mt-3 text-center">Expenses</h2>
+                <label for="">Food:</label>
+                <input type="number" id="Food" class="bg-2"> <br> <br>
+                <label for="">Rent:</label>
+                <input type="number" id="Rent" class="bg-2"> <br> <br>
+                <label for="">Clothes:</label>
+                <input type="number" id="Cloths" class="bg-3"> <br> <br>
+                <button class="btn btn-primary" id="MainCalculation">Calculate</button>
+                <h4>Total Expenses: <span id="totalExpenses">00</span></h4> <br>
+                <h4>Balance: <span id="remainingBal">00</span></h4>
+                <p class="text-danger" id="error1"></p>
+            </div>
+            <div>
+               
+                <div class="row" style="
+                margin-left: 150px;
+            ">
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <div>
+                            <label for="">Save:</label>
+                        <input type="number" id="savingParsent" class="bg-4"> %
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-start">
+                        <button class="btn btn-primary" id="SavingSBtn">Save</button>
+                    </div>
+
+                    
+                </div>
+                <h4 >Saving Amount: <span id="SavingBalance">00</span></h4>
+                    <h4>Remaining Balance: <span id="MainReamingBal">00</span></h4>
+                    <p class="text-danger" id="error-2"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

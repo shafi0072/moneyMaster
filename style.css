@@ -1,0 +1,25 @@
+.image{
+    width: 100%;
+    margin-top: 100px;
+}
+.bg{
+    background-color: lightgray;
+}
+.bg-2{
+    background-color: gray;
+    border: none;
+    margin-left: 20px;
+    color: white;
+}
+.bg-3{
+    background-color: gray;
+    border: none;
+    margin-left: 0px;
+    color: white;
+}
+.bg-4{
+    background-color: gray;
+    border: none;
+    margin-left: 0px;
+    color: white;
+}
